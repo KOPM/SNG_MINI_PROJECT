@@ -10,7 +10,11 @@
         default-lazy-init="true">
      
      <!-- 配置KMPO Action -->
-     
+     <bean id="UserLoginAction" class="com.tencent.kopm.action.UserLoginAction">
+     	<property name="userLoginService" ref="UserLoginService"></property>
+     </bean>
      <!-- 配置KMPO Service -->
-     
+     <bean id="UserLoginService" class="com.tencent.kopm.service.impl.UserLoginServiceImpl">
+        <property name="userDao" ref="UserDAO"></property>
+     </bean>
 </beans>

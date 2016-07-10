@@ -13,7 +13,15 @@
     <package name="sample" extends="struts-default">
     	
     	<!-- 配置Action -->
-    	   	
+    	
+    	<action name="ajaxUsernameValid" class="UserLoginAction" method="ajaxUsernameValid">
+    	</action>
+    	
+    	<action name="ajaxSignin" class="UserLoginAction" method="ajaxSignin">
+    	</action>
+    	
+    	<action name="ajaxLogin" class="UserLoginAction" method="ajaxLogin">
+    	</action>  	
     </package>
     
 </struts>
