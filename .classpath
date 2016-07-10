@@ -66,5 +66,6 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/weka-src.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/weka.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xwork-core-2.3.14.3.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

@@ -18,7 +18,11 @@ public class User implements java.io.Serializable {
 	/** default constructor */
 	public User() {
 	}
-
+    /** no uid**/
+	public User(String username, String password) {
+		this.username = username;
+		this.password = password;
+	}
 	/** minimal constructor */
 	public User(Integer uid, String username, String password) {
 		this.uid = uid;
